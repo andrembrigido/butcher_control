@@ -44,7 +44,6 @@ class _OffListViewCtnState extends State<OffListViewCtn> {
                   ),
                 ),
               ),
-              Padding(padding: EdgeInsets.all(5)),
               /* █████████████████████ OFF CARNES CTN █████████████████████ */
               Container(
                 child: Column(

@@ -35,7 +35,7 @@ class _AlertListViewCtnState extends State<AlertListViewCtn> {
                 ),
 
                 child: Text(
-                  'Quase Vencendo',
+                  'Vencendo',
                   style: TextStyle(
                     fontSize: 20,
                     color: AppColors.whiteNormal,
@@ -44,7 +44,6 @@ class _AlertListViewCtnState extends State<AlertListViewCtn> {
                   ),
                 ),
               ),
-              Padding(padding: EdgeInsets.all(5)),
               /* █████████████████████ ALERT CARNES CTN █████████████████████ */
               Container(
                 child: Column(

@@ -35,7 +35,7 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
                 ),
 
                 child: Text(
-                  'Em Estoque',
+                  'Estoque',
                   style: TextStyle(
                     fontSize: 20,
                     color: AppColors.whiteNormal,
@@ -44,7 +44,6 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
                   ),
                 ),
               ),
-              Padding(padding: EdgeInsets.all(5)),
               /* █████████████████████ ON CARNES CTN █████████████████████ */
               Container(
                 child: Column(

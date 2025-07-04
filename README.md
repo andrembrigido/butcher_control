@@ -71,7 +71,8 @@ lib/
 ## 💬 Comentários no Código
 
 - Um por linha, com **motivo e construção**  
-- Comentários temporários devem ser **visuais**, exemplo:
+- Sempre na linha de cima do código em questão, nunca do lado, pois isso pode quebrar a organização do codigo. 
+- Separar a secoes por comentários **visuais**, seguir a aparecia dos que já tem no código.
 
 ---
 

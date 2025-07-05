@@ -11,24 +11,22 @@ class NavBarCtn extends StatefulWidget {
 class _NavBarCtnState extends State<NavBarCtn> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: [
-          /* █████████████████████ NAVBAR █████████████████████ */
-          Container(
-            height: 70,
-            decoration: BoxDecoration(
-              color: AppColors.grayNormal,
-              borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(15),
-                topRight: Radius.circular(10),
-              ),
+    return Column(
+      children: [
+        /* █████████████████████ NAVBAR █████████████████████ */
+        Container(
+          height: 70,
+          decoration: BoxDecoration(
+            color: AppColors.grayNormal,
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(15),
+              topRight: Radius.circular(10),
             ),
           ),
-          /* █████████████████████ NAVBAR SAFE AREA █████████████████████ */
-          Container(height: 30, color: AppColors.grayNormal),
-        ],
-      ),
+        ),
+        /* █████████████████████ NAVBAR SAFE AREA █████████████████████ */
+        Container(height: 30, color: AppColors.grayNormal),
+      ],
     );
   }
 }

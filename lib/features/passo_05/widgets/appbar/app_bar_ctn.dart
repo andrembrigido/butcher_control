@@ -11,25 +11,22 @@ class AppBarCtn extends StatefulWidget {
 class _AppBarCTNState extends State<AppBarCtn> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: [
-          /* █████████████████████ APPBAR SAFE AREA █████████████████████  */
-          Container(height: 60, color: AppColors.grayNormal),
-
-          /* █████████████████████ APPBAR █████████████████████ */
-          Container(
-            height: 90,
-            decoration: BoxDecoration(
-              color: AppColors.grayNormal,
-              borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(15),
-                bottomRight: Radius.circular(15),
-              ),
+    return Column(
+      children: [
+        /* █████████████████████ APPBAR SAFE AREA █████████████████████  */
+        Container(height: 60, color: AppColors.grayNormal),
+        /* █████████████████████ APPBAR █████████████████████ */
+        Container(
+          height: 90,
+          decoration: BoxDecoration(
+            color: AppColors.grayNormal,
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(15),
+              bottomRight: Radius.circular(15),
             ),
           ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 }

@@ -44,26 +44,6 @@ class _OffListViewCtnState extends State<OffListViewCtn> {
                   ),
                 ),
               ),
-              /* █████████████████████ OFF CARNES CTN █████████████████████ */
-              Container(
-                child: Column(
-                  children: [
-                    Container(
-                      width: double.infinity,
-                      height: 100,
-                      margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                      decoration: BoxDecoration(
-                        color: AppColors.transparent,
-                        border: Border.all(
-                          color: AppColors.blackLight,
-                          width: 4,
-                        ),
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
             ],
           ),
         ],

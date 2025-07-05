@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 /* -----------------------------------------------------------------------------
 --- Sobre este arquivo ---
   - Este é o widget principal do aplicativo.

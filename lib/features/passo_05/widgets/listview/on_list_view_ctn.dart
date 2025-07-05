@@ -1,4 +1,4 @@
-import 'package:basic_project/features/passo_05/widgets/listview/widgets/add_botton.dart';
+import 'package:basic_project/features/passo_05/widgets/listview/widgets/add_item_btn.dart';
 import 'package:basic_project/theme/colors_palette.dart';
 import 'package:flutter/material.dart';
 
@@ -46,25 +46,16 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
                 ),
               ),
               /* █████████████████████ ADD CONGELADOS BOTTON █████████████████████ */
-              AddCongeladosBotton(),
+              AddItemBtn(),
               /* █████████████████████ ON CARNES CTN █████████████████████ */
               Container(
-                child: Column(
-                  children: [
-                    Container(
-                      width: double.infinity,
-                      height: 100,
-                      margin: EdgeInsets.fromLTRB(10, 0, 10, 10),
-                      decoration: BoxDecoration(
-                        color: AppColors.transparent,
-                        border: Border.all(
-                          color: AppColors.greenNormal,
-                          width: 4,
-                        ),
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                    ),
-                  ],
+                width: double.infinity,
+                height: 100,
+                margin: EdgeInsets.fromLTRB(10, 0, 10, 10),
+                decoration: BoxDecoration(
+                  color: AppColors.transparent,
+                  border: Border.all(color: AppColors.greenNormal, width: 4),
+                  borderRadius: BorderRadius.circular(15),
                 ),
               ),
             ],

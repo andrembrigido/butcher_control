@@ -1,18 +1,18 @@
-import 'package:basic_project/theme/colors_palette.dart';
 import 'package:flutter/material.dart';
+import 'package:basic_project/theme/colors_palette.dart';
 
-class OnListViewCtn extends StatefulWidget {
-  const OnListViewCtn({super.key});
+class OffListViewCtn extends StatefulWidget {
+  const OffListViewCtn({super.key});
 
   @override
-  State<OnListViewCtn> createState() => _OnListViewCtnState();
+  State<OffListViewCtn> createState() => _OffListViewCtnState();
 }
 
-class _OnListViewCtnState extends State<OnListViewCtn> {
+class _OffListViewCtnState extends State<OffListViewCtn> {
   @override
   Widget build(BuildContext context) {
     return
-    /* █████████████████████ ON LIST VIEW CTN █████████████████████ */
+    /* █████████████████████ OFF LIST VIEW CTN █████████████████████ */
     Container(
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
@@ -30,12 +30,12 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
                 margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: AppColors.greenNormal,
+                  color: AppColors.blackLight,
                   borderRadius: BorderRadius.circular(15),
                 ),
 
                 child: Text(
-                  'Estoque',
+                  'Removidas',
                   style: TextStyle(
                     fontSize: 20,
                     color: AppColors.whiteNormal,
@@ -44,7 +44,7 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
                   ),
                 ),
               ),
-              /* █████████████████████ ON CARNES CTN █████████████████████ */
+              /* █████████████████████ OFF CARNES CTN █████████████████████ */
               Container(
                 child: Column(
                   children: [
@@ -55,8 +55,8 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
                       decoration: BoxDecoration(
                         color: AppColors.transparent,
                         border: Border.all(
-                          color: AppColors.greenNormal,
-                          width: 5,
+                          color: AppColors.blackLight,
+                          width: 4,
                         ),
                         borderRadius: BorderRadius.circular(15),
                       ),

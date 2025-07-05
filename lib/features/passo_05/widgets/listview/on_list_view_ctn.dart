@@ -1,18 +1,19 @@
+import 'package:basic_project/features/passo_05/widgets/listview/widgets/add_botton.dart';
 import 'package:basic_project/theme/colors_palette.dart';
 import 'package:flutter/material.dart';
 
-class AlertListViewCtn extends StatefulWidget {
-  const AlertListViewCtn({super.key});
+class OnListViewCtn extends StatefulWidget {
+  const OnListViewCtn({super.key});
 
   @override
-  State<AlertListViewCtn> createState() => _AlertListViewCtnState();
+  State<OnListViewCtn> createState() => _OnListViewCtnState();
 }
 
-class _AlertListViewCtnState extends State<AlertListViewCtn> {
+class _OnListViewCtnState extends State<OnListViewCtn> {
   @override
   Widget build(BuildContext context) {
     return
-    /* █████████████████████ ALERT LIST VIEW CTN █████████████████████ */
+    /* █████████████████████ ON LIST VIEW CTN █████████████████████ */
     Container(
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
@@ -30,12 +31,12 @@ class _AlertListViewCtnState extends State<AlertListViewCtn> {
                 margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: AppColors.redNormal,
+                  color: AppColors.greenNormal,
                   borderRadius: BorderRadius.circular(15),
                 ),
 
                 child: Text(
-                  'Vencendo',
+                  'Estoque',
                   style: TextStyle(
                     fontSize: 20,
                     color: AppColors.whiteNormal,
@@ -44,19 +45,21 @@ class _AlertListViewCtnState extends State<AlertListViewCtn> {
                   ),
                 ),
               ),
-              /* █████████████████████ ALERT CARNES CTN █████████████████████ */
+              /* █████████████████████ ADD CONGELADOS BOTTON █████████████████████ */
+              AddCongeladosBotton(),
+              /* █████████████████████ ON CARNES CTN █████████████████████ */
               Container(
                 child: Column(
                   children: [
                     Container(
                       width: double.infinity,
                       height: 100,
-                      margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                      margin: EdgeInsets.fromLTRB(10, 0, 10, 10),
                       decoration: BoxDecoration(
                         color: AppColors.transparent,
                         border: Border.all(
-                          color: AppColors.redNormal,
-                          width: 5,
+                          color: AppColors.greenNormal,
+                          width: 4,
                         ),
                         borderRadius: BorderRadius.circular(15),
                       ),

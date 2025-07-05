@@ -21,7 +21,7 @@ Não pode ter:
 
 // Importa os componentes visuais do Flutter
 import 'package:flutter/material.dart';
-import 'package:basic_project/features/passo_04/home_pg.dart';
+import 'package:basic_project/features/passo_05/home_pg.dart';
 
 // Widget principal do aplicativo
 class AppWidget extends StatelessWidget {

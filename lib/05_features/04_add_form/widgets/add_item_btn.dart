@@ -20,19 +20,20 @@ class _AddItemBtnState extends State<AddItemBtn> {
         onPressed: () {
           showDialog(
             context: context,
+            barrierDismissible: false,
             builder: (BuildContext context) => const FormAddItemBtn(),
           );
         },
         style: OutlinedButton.styleFrom(
-          backgroundColor: AppColors.transparent,
-          side: BorderSide(color: AppColors.grayHard, width: 4),
+          backgroundColor: ColorsApp.transparent,
+          side: BorderSide(color: ColorsApp.grayHard, width: 4),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15),
           ),
         ),
         child: Icon(
           Icons.add_rounded,
-          color: AppColors.grayHard,
+          color: ColorsApp.grayHard,
           size: 60, // mesmo tamanho
         ),
       ),

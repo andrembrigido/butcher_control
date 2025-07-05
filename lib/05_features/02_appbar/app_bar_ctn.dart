@@ -14,12 +14,12 @@ class _AppBarCTNState extends State<AppBarCtn> {
     return Column(
       children: [
         /* █████████████████████ APPBAR SAFE AREA █████████████████████  */
-        Container(height: 60, color: AppColors.grayNormal),
+        Container(height: 60, color: ColorsApp.grayNormal),
         /* █████████████████████ APPBAR █████████████████████ */
         Container(
           height: 90,
           decoration: BoxDecoration(
-            color: AppColors.grayNormal,
+            color: ColorsApp.grayNormal,
             borderRadius: BorderRadius.only(
               bottomLeft: Radius.circular(15),
               bottomRight: Radius.circular(15),

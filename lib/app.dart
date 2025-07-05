@@ -36,7 +36,7 @@ class AppWidget extends StatelessWidget {
       // Remove a faixa de "debug" do canto superior direito
       debugShowCheckedModeBanner: false,
       // Define o tema do aplicativo com fundo branco
-      theme: ThemeData(scaffoldBackgroundColor: AppColors.whitePure),
+      theme: ThemeData(scaffoldBackgroundColor: ColorsApp.grayNormal),
       // Define qual rota será exibida primeiro ao iniciar o app
       initialRoute: 'HomePg',
       // Define as rotas disponíveis e suas respectivas telas

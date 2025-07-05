@@ -16,7 +16,7 @@ class _OffListViewCtnState extends State<OffListViewCtn> {
     Container(
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: AppColors.grayNormal,
+        color: ColorsApp.grayNormal,
         borderRadius: BorderRadius.circular(15),
       ),
       child: Column(
@@ -30,7 +30,7 @@ class _OffListViewCtnState extends State<OffListViewCtn> {
                 margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: AppColors.blackLight,
+                  color: ColorsApp.blackNormal,
                   borderRadius: BorderRadius.circular(15),
                 ),
 
@@ -38,7 +38,7 @@ class _OffListViewCtnState extends State<OffListViewCtn> {
                   'Removidas',
                   style: TextStyle(
                     fontSize: 20,
-                    color: AppColors.whiteNormal,
+                    color: ColorsApp.whiteNormal,
                     fontWeight: FontWeight.bold,
                     decoration: TextDecoration.none,
                   ),

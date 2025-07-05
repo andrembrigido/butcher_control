@@ -17,7 +17,7 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
     Container(
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: AppColors.grayNormal,
+        color: ColorsApp.grayNormal,
         borderRadius: BorderRadius.circular(15),
       ),
       child: Column(
@@ -31,7 +31,7 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
                 margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: AppColors.greenNormal,
+                  color: ColorsApp.greenNormal,
                   borderRadius: BorderRadius.circular(15),
                 ),
 
@@ -39,7 +39,7 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
                   'Estoque',
                   style: TextStyle(
                     fontSize: 20,
-                    color: AppColors.whiteNormal,
+                    color: ColorsApp.whiteNormal,
                     fontWeight: FontWeight.bold,
                     decoration: TextDecoration.none,
                   ),

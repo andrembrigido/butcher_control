@@ -19,9 +19,9 @@
 
 import 'package:flutter/material.dart';
 
-class AppColors {
+class ColorsApp {
   static const Color transparent = Colors.transparent;
-  // ◼️ Tons de cinza
+  // ◼️ Tons de cinza para UI
   static const Color grayPure = Color.fromARGB(255, 220, 220, 220);
   static const Color grayLight = Color.fromARGB(255, 245, 245, 245);
   static const Color grayNormal = Color.fromARGB(255, 230, 230, 230);

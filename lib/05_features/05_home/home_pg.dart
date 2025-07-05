@@ -17,7 +17,7 @@ class _HomePgState extends State<HomePg> {
     return Container(
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
-      color: AppColors.whitePure,
+      color: ColorsApp.whitePure,
       child: Column(
         children: [
           /* █████████████████████ APPBARCTN █████████████████████ */

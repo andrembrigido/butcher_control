@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:basic_project/05_features/01_home/widgets/listview/controllers/list_view_ctl.dart';
-import 'package:basic_project/05_features/01_home/widgets/listview/widgets/off_list_view_ctn.dart';
-import 'package:basic_project/05_features/01_home/widgets/listview/widgets/alert_list_view_ctn.dart';
-import 'package:basic_project/05_features/01_home/widgets/listview/widgets/on_list_view_ctn.dart';
+import 'package:basic_project/05_features/03_listview/controllers/list_view_ctl.dart';
+import 'package:basic_project/05_features/03_listview/widgets/off_list_view_ctn.dart';
+import 'package:basic_project/05_features/03_listview/widgets/alert_list_view_ctn.dart';
+import 'package:basic_project/05_features/03_listview/widgets/on_list_view_ctn.dart';
 
 /// 🧱 Widget principal que exibe três listas de carnes (retiradas, em alerta e em estoque)
 /// - Utiliza um PageView para permitir a navegação horizontal entre as listas

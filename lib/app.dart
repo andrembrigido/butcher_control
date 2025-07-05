@@ -19,7 +19,7 @@ Não pode ter:
 
 // Importa os componentes visuais do Flutter
 import 'package:flutter/material.dart';
-import 'package:basic_project/05_features/01_home/home_pg.dart';
+import 'package:basic_project/05_features/05_home/home_pg.dart';
 import 'package:basic_project/04_theme/colors_palette.dart';
 
 // Widget principal do aplicativo

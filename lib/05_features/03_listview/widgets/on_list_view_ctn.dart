@@ -1,4 +1,4 @@
-import 'package:basic_project/05_features/02_add_form/widgets/add_item_btn.dart';
+import 'package:basic_project/05_features/04_add_form/widgets/add_item_btn.dart';
 import 'package:basic_project/04_theme/colors_palette.dart';
 import 'package:flutter/material.dart';
 
@@ -47,17 +47,6 @@ class _OnListViewCtnState extends State<OnListViewCtn> {
               ),
               /* █████████████████████ ADD CONGELADOS BOTTON █████████████████████ */
               AddItemBtn(),
-              /* █████████████████████ ON CARNES CTN █████████████████████ */
-              Container(
-                width: double.infinity,
-                height: 100,
-                margin: EdgeInsets.fromLTRB(10, 0, 10, 10),
-                decoration: BoxDecoration(
-                  color: AppColors.transparent,
-                  border: Border.all(color: AppColors.greenNormal, width: 4),
-                  borderRadius: BorderRadius.circular(15),
-                ),
-              ),
             ],
           ),
         ],

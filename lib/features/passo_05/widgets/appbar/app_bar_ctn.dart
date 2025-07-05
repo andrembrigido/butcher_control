@@ -1,29 +1,27 @@
 import 'package:flutter/material.dart';
+import 'package:basic_project/theme/colors_palette.dart';
 
-class AppBarCTN extends StatefulWidget {
-  const AppBarCTN({super.key});
+class AppBarCtn extends StatefulWidget {
+  const AppBarCtn({super.key});
 
   @override
-  State<AppBarCTN> createState() => _AppBarCTNState();
+  State<AppBarCtn> createState() => _AppBarCTNState();
 }
 
-class _AppBarCTNState extends State<AppBarCTN> {
+class _AppBarCTNState extends State<AppBarCtn> {
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Column(
         children: [
           /* █████████████████████ APPBAR SAFE AREA █████████████████████  */
-          Container(
-            height: 60,
-            color: const Color.fromARGB(255, 230, 230, 230),
-          ),
+          Container(height: 60, color: AppColors.grayNormal),
 
           /* █████████████████████ APPBAR █████████████████████ */
           Container(
             height: 90,
             decoration: BoxDecoration(
-              color: const Color.fromARGB(255, 230, 230, 230),
+              color: AppColors.grayNormal,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(15),
                 bottomRight: Radius.circular(15),

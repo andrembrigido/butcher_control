@@ -1,6 +1,4 @@
 /*
-  📁 ARQUIVO: lib/features/passo_04/controllers/list_view_ctl.dart
-
   🧠 O que faz:
   Controlador responsável por gerenciar a navegação entre as páginas da lista de carnes.
 

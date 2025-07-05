@@ -35,7 +35,7 @@ class _ListViewCtnState extends State<ListViewCtn> {
     return Expanded(
       child: PageView(
         controller: listViewController.controller,
-        children: const [
+        children: [
           OffListViewCtn(), // Carnes já retiradas do estoque
           AlertListViewCtn(), // Carnes próximas da validade
           OnListViewCtn(), // Carnes em estoque com validade ok

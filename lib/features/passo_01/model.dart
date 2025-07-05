@@ -1,6 +1,4 @@
 /*
-  PASSO 01 – O MOLDE DOS CONGELADOS
-
   🧠 O que faz:
   Aqui a gente cria o “molde” de como cada produto congelado deve ser.
   Esse molde serve para garantir que todos os itens tenham as mesmas informações.
@@ -16,9 +14,10 @@
   a gente criou a forma que vai dar o formato para todos os “bolos congelados”.
 */
 
-class CongeladoModel {
+class ItemModel {
   // final significa que o valor não pode ser mudado depois que for criado
   final String id; // Código único pra identificar o item
+  final String type; // Tipo do item
   final String name; // Nome do produto (ex: Acém, Picanha)
   final String freezer; // Qual freezer está (ex: A, B)
   final String prateleira; // Qual prateleira dentro do freezer
@@ -27,8 +26,9 @@ class CongeladoModel {
   final DateTime validade; // Data em que vence
 
   // Aqui a gente obriga que tudo seja informado ao criar o produto
-  CongeladoModel({
+  ItemModel({
     required this.id,
+    required this.type,
     required this.name,
     required this.freezer,
     required this.prateleira,

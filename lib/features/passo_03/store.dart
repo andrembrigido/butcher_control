@@ -1,8 +1,4 @@
 /*
-  PASSO 03 – A CENTRAL DE DADOS (STORE)
-
-  📁 ARQUIVO: lib/stores/passo_03_store.dart
-
   🧠 O que faz:
   Aqui a gente cria uma "central" que guarda a lista dos produtos congelados.
 
@@ -21,17 +17,17 @@ import 'package:flutter/material.dart';
 import 'package:basic_project/features/passo_02/api.dart';
 import 'package:basic_project/features/passo_01/model.dart';
 
-class CongeladoStore extends ChangeNotifier {
+class ItemStore extends ChangeNotifier {
   final Api _api = Api();
 
-  List<CongeladoModel> _congelados = [];
+  List<ItemModel> _items = [];
 
   // Essa função busca (fetch = buscar e trazer) os produtos da API e salva aqui dentro
   // O async quer dizer: "essa função pode demorar um pouco, mas o app pode continuar funcionando"
   // O await lá dentro diz: "espera essa parte terminar antes de continuar"
   // No caso abaixo, ele espera 1 segundo (simulando uma espera real de rede/API)
   Future<void> fetchProdutos() async {
-    _congelados = await _api.fetchCongelados();
+    _items = await _api.fetchItems();
 
     // Isso avisa o app que a lista foi atualizada, e que a interface (UI) deve se atualizar
     // Essa função só existe porque usamos ChangeNotifier lá em cima
@@ -39,20 +35,20 @@ class CongeladoStore extends ChangeNotifier {
   }
 
   // Essa é a versão pública da lista, que o app pode acessar
-  List<CongeladoModel> get congelados => _congelados;
+  List<ItemModel> get congelados => _items;
 
   // Essa função adiciona um novo produto à lista
   // O nome "novoProduto" é só um nome escolhido, não é palavra reservada.
   // Você poderia usar outro nome como "item", "novo", "produtoNovo"... o que fizer mais sentido
-  void adicionar(CongeladoModel novoProduto) {
-    _congelados.add(novoProduto); // Adiciona o produto à lista
+  void adicionar(ItemModel novoProduto) {
+    _items.add(novoProduto); // Adiciona o produto à lista
     notifyListeners(); // Avisa que a lista mudou
   }
 
   // Essa função remove um produto da lista, usando o ID como referência
   // Aqui usamos "produtoParaRemover" como nome, mas você pode usar qualquer outro nome
-  void remover(CongeladoModel produtoParaRemover) {
-    _congelados.removeWhere((elemento) => elemento.id == produtoParaRemover.id);
+  void remover(ItemModel produtoParaRemover) {
+    _items.removeWhere((elemento) => elemento.id == produtoParaRemover.id);
     notifyListeners(); // Avisa que a lista mudou
   }
 }

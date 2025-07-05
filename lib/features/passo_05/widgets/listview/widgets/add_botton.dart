@@ -1,28 +1,34 @@
-import 'package:basic_project/theme/colors_palette.dart';
 import 'package:flutter/material.dart';
+import 'package:basic_project/theme/colors_palette.dart';
 
-class AddCongeladosBotton extends StatefulWidget {
+class AddCongeladosBotton extends StatelessWidget {
   const AddCongeladosBotton({super.key});
 
   @override
-  State<AddCongeladosBotton> createState() => _AddCongeladosBottonState();
-}
-
-class _AddCongeladosBottonState extends State<AddCongeladosBotton> {
-  @override
   Widget build(BuildContext context) {
-    return
-    /* █████████████████████ ALERT CARNES CTN █████████████████████ */
-    Container(
-      width: double.infinity,
-      height: 100,
-      margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-      decoration: BoxDecoration(
-        color: AppColors.transparent,
-        border: Border.all(color: AppColors.grayHard, width: 4),
-        borderRadius: BorderRadius.circular(15),
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
+      child: SizedBox(
+        width: double.infinity,
+        height: 100,
+        child: OutlinedButton(
+          onPressed: () {
+            // Aqui você vai abrir o pop-up futuramente
+          },
+          style: OutlinedButton.styleFrom(
+            backgroundColor: AppColors.transparent,
+            side: BorderSide(color: AppColors.grayHard, width: 4),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(15),
+            ),
+          ),
+          child: Icon(
+            Icons.add_rounded,
+            color: AppColors.grayHard,
+            size: 60, // mesmo tamanho
+          ),
+        ),
       ),
-      child: Icon(Icons.add_rounded, color: AppColors.grayHard, size: 60),
     );
   }
 }

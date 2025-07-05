@@ -1,5 +1,5 @@
-import 'package:basic_project/theme/colors_palette.dart';
 import 'package:flutter/material.dart';
+import 'package:basic_project/theme/colors_palette.dart';
 
 class AlertListViewCtn extends StatefulWidget {
   const AlertListViewCtn({super.key});

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:basic_project/theme/colors_palette.dart';
 
 class NavBarCtn extends StatefulWidget {
   const NavBarCtn({super.key});
@@ -17,7 +18,7 @@ class _NavBarCtnState extends State<NavBarCtn> {
           Container(
             height: 70,
             decoration: BoxDecoration(
-              color: const Color.fromARGB(255, 230, 230, 230),
+              color: AppColors.grayNormal,
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(15),
                 topRight: Radius.circular(10),
@@ -25,10 +26,7 @@ class _NavBarCtnState extends State<NavBarCtn> {
             ),
           ),
           /* █████████████████████ NAVBAR SAFE AREA █████████████████████ */
-          Container(
-            height: 30,
-            color: const Color.fromARGB(255, 230, 230, 230),
-          ),
+          Container(height: 30, color: AppColors.grayNormal),
         ],
       ),
     );

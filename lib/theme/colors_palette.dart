@@ -1,6 +1,4 @@
 /*
-  📁 ARQUIVO: lib/theme/app_colors.dart
-
   🎨 O que faz:
   Define uma paleta de cores centralizada e reutilizável para todo o aplicativo.
 

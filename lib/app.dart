@@ -22,6 +22,7 @@ Não pode ter:
 // Importa os componentes visuais do Flutter
 import 'package:flutter/material.dart';
 import 'package:basic_project/features/passo_05/home_pg.dart';
+import 'package:basic_project/theme/colors_palette.dart';
 
 // Widget principal do aplicativo
 class AppWidget extends StatelessWidget {
@@ -37,9 +38,7 @@ class AppWidget extends StatelessWidget {
       // Remove a faixa de "debug" do canto superior direito
       debugShowCheckedModeBanner: false,
       // Define o tema do aplicativo com fundo branco
-      theme: ThemeData(
-        scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
-      ),
+      theme: ThemeData(scaffoldBackgroundColor: AppColors.whitePure),
       // Define qual rota será exibida primeiro ao iniciar o app
       initialRoute: 'HomePg',
       // Define as rotas disponíveis e suas respectivas telas

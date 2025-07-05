@@ -1,4 +1,6 @@
 /*
+PASSO 2
+
   🧠 O que faz:
   Aqui a gente cria o “molde” de como cada produto congelado deve ser.
   Esse molde serve para garantir que todos os itens tenham as mesmas informações.

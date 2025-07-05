@@ -19,8 +19,8 @@ Não pode ter:
 
 // Importa os componentes visuais do Flutter
 import 'package:flutter/material.dart';
-import 'package:basic_project/features/passo_05/home_pg.dart';
-import 'package:basic_project/theme/colors_palette.dart';
+import 'package:basic_project/05_features/01_home/home_pg.dart';
+import 'package:basic_project/04_theme/colors_palette.dart';
 
 // Widget principal do aplicativo
 class AppWidget extends StatelessWidget {

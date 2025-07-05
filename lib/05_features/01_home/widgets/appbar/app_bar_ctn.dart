@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:basic_project/theme/colors_palette.dart';
+import 'package:basic_project/04_theme/colors_palette.dart';
 
 class AppBarCtn extends StatefulWidget {
   const AppBarCtn({super.key});

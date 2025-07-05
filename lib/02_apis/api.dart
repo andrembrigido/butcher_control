@@ -14,7 +14,7 @@
   Ela mostra o que está “no cardápio” e já vem pronta pra ser usada no sistema.
 */
 
-import 'package:basic_project/features/passo_01/model.dart';
+import 'package:basic_project/01%20_models/model.dart';
 
 // Função que simula a busca dos produtos, como se fosse de uma API real
 class Api {

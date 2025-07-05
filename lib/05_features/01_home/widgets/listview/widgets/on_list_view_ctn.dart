@@ -1,5 +1,5 @@
-import 'package:basic_project/features/passo_05/widgets/listview/widgets/add_item_btn.dart';
-import 'package:basic_project/theme/colors_palette.dart';
+import 'package:basic_project/05_features/02_add_form/widgets/add_item_btn.dart';
+import 'package:basic_project/04_theme/colors_palette.dart';
 import 'package:flutter/material.dart';
 
 class OnListViewCtn extends StatefulWidget {

@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:basic_project/theme/colors_palette.dart';
+import 'package:basic_project/04_theme/colors_palette.dart';
 
-class OffListViewCtn extends StatefulWidget {
-  const OffListViewCtn({super.key});
+class AlertListViewCtn extends StatefulWidget {
+  const AlertListViewCtn({super.key});
 
   @override
-  State<OffListViewCtn> createState() => _OffListViewCtnState();
+  State<AlertListViewCtn> createState() => _AlertListViewCtnState();
 }
 
-class _OffListViewCtnState extends State<OffListViewCtn> {
+class _AlertListViewCtnState extends State<AlertListViewCtn> {
   @override
   Widget build(BuildContext context) {
     return
-    /* █████████████████████ OFF LIST VIEW CTN █████████████████████ */
+    /* █████████████████████ ALERT LIST VIEW CTN █████████████████████ */
     Container(
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
@@ -30,12 +30,12 @@ class _OffListViewCtnState extends State<OffListViewCtn> {
                 margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: AppColors.blackLight,
+                  color: AppColors.redNormal,
                   borderRadius: BorderRadius.circular(15),
                 ),
 
                 child: Text(
-                  'Removidas',
+                  'Vencendo',
                   style: TextStyle(
                     fontSize: 20,
                     color: AppColors.whiteNormal,

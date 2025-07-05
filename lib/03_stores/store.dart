@@ -14,8 +14,8 @@
 */
 
 import 'package:flutter/material.dart';
-import 'package:basic_project/features/passo_02/api.dart';
-import 'package:basic_project/features/passo_01/model.dart';
+import 'package:basic_project/02_apis/api.dart';
+import 'package:basic_project/01%20_models/model.dart';
 
 class ItemStore extends ChangeNotifier {
   final Api _api = Api();
